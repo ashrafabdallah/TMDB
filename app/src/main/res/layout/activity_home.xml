@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <Button
+            app:backgroundTint="@null"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:background="@drawable/roundbtn"
+            android:id="@+id/btnmovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie" />
+
+        <Button
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/roundbtn"
+            android:id="@+id/btntv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tv shows" />
+
+        <Button
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:background="@drawable/roundbtn"
+            app:backgroundTint="@null"
+            android:id="@+id/btnartist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="artist" />
+    </LinearLayout>
+</layout>
